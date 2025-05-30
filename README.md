@@ -1,4 +1,4 @@
-# Sentence Analyzer – Beginner Algorithm Exercise
+# Sentence Analysis
 
 ## 📝 Objective
 
