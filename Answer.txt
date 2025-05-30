@@ -1,3 +1,4 @@
+# Solution  Description 
 START
 1. Declare the sentence.
 2. Declare the variables: sentence_length, word_counter, vowel_counter
@@ -9,3 +10,24 @@ START
     c. If character is in vowels, increase vowel_counter by 1
 6. After loop ends, print sentence_length, word_counter, and vowel_counter
 END
+
+# Pseudocode solution
+DECLARE sentence
+DECLARE char_count = 0
+DECLARE word_count = 1
+DECLARE vowel_count = 0
+DECLARE vowels = "aeiouAEIOU"
+
+FOR each character in sentence DO
+    INCREMENT char_count by 1
+    IF character is space THEN
+        INCREMENT word_count by 1
+    ENDIF
+    IF character is in vowels THEN
+        INCREMENT vowel_count by 1
+    ENDIF
+ENDFOR
+
+PRINT char_count
+PRINT word_count
+PRINT vowel_count
