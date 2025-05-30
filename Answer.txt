@@ -1,0 +1,11 @@
+START
+1. Declare the sentence.
+2. Declare the variables: sentence_length, word_counter, vowel_counter
+3. Initialize the variables to 0 (except word_counter to 1)
+4. Declare a variable for vowels: vowels = "aeiouAEIOU"
+5. Loop through each character in the sentence:
+    a. Increase sentence_length by 1
+    b. If character is a space, increase word_counter by 1
+    c. If character is in vowels, increase vowel_counter by 1
+6. After loop ends, print sentence_length, word_counter, and vowel_counter
+END
